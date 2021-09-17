@@ -15,4 +15,4 @@ if [ $ch -eq 1 ]
         echo "Logname user current not loging"
 fi
 
-echo "Total user are : `who | wc -l`"
+echo "Total user are : `ls /home | wc -l`"

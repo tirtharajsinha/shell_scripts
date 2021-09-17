@@ -2,4 +2,5 @@
 date
 var=$date
 echo "$var"
-echo "welcome"
+echo -n "welcome "
+whoami
