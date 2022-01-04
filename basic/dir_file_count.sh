@@ -10,7 +10,7 @@ OTHER=$(ls -a $dir | wc -l)
 echo "current=$CURRENT , other=$OTHER"
 if [ $CURRENT -gt $OTHER ]
 then
-    echo "current dir has $(($CURRENT-$OTHER)) files more than $dir"
+    echo "current directory has $(($CURRENT-$OTHER)) files more than $dir"
 elif [ $CURRENT -lt $OTHER ]
 then
     echo "$dir has $(($OTHER-$CURRENT)) files more than current dir."

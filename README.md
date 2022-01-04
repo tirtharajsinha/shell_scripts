@@ -1,2 +1,3 @@
 # shell_scripts
-shell files .
+shell scripts .
+

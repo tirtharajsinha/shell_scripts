@@ -1,5 +1,6 @@
 #!/bin/bash
 row=8
+echo "full pyramid of row $row"
 
 for (( i=1 ; i <= $row ; i++ ))
     do
